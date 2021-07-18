@@ -11,5 +11,6 @@ public class PalindromeTest {
 	    Palindrome palindromeTester = new Palindrome();
 	    assertTrue(palindromeTester.isPalindrome(""));
 	    assertTrue(palindromeTester.isPalindrome("NON"));
+	    assertTrue(palindromeTester.isPalindrome("NONE"));
 	}
 }
